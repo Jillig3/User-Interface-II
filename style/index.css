@@ -59,7 +59,7 @@ h2{
     font-size: 3rem;
 }
 section{
-    padding: 4% 0;
+    padding: 2% 0;
 }
 /*header*/
 nav{
@@ -146,9 +146,14 @@ nav{
 }
 
 /*gallery2*/
+
 .gallery2{
     display: flex;
     justify-content: space-around;
+}
+.gallery2 div{
+    width: 30%;
+    height:auto;
 }
 .gallery2 .left{
     background-image: url(../imgs/circles.jpg);
@@ -183,8 +188,26 @@ nav{
     display: flex;
     align-items: flex-end;
 }
-section .gallery2{
+.gallery2{
     padding:0;
+}
+.gallery1 div .hide{
+    width: 70%;
+    height:auto;
+    background-color: #fff;
+    display: none;
+}
+.gallery2 div .hide{
+    width: 75%;
+    height:auto;
+    background-color: #fff;
+    display: none;
+}
+.gallery1 div:hover .hide{
+    display: block;
+}
+.gallery2 div:hover .hide{
+    display: block;
 }
 /*footer*/
 footer{
