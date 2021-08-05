@@ -1,1 +1,130 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0%;
+    max-width:100%;
+}
+
+/*General Styles*/
+html{
+    font-size: 62.5;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: antiquewhite;
+    color: #4F4F4F;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+/*header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    top: 0%;
+    width: 100%;
+    color: #4F4F4F;
+    flex-direction: column;
+}
+.links .bigname{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/*home section bio styles*/
+#home{
+    height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainphoto{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15%;
+    background-image: url(../imgs/treeinwater.jpg);
+    background-position: bottom;
+    width:50%;
+    background-size: 60rem;
+            
+}
+
+/*gallery1*/
+.gallery1{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.gallery1 .left{
+    background-image: url(../imgs/waterfall.jpg);
+    padding: 33%;
+}
+.gallery1 .middle{
+    background-image: url(../imgs/yellowflower.jpg);
+    padding: 15%;
+}
+.gallery1 .right{
+    background-image: url(../imgs/wildflowers.jpg);
+    padding: 15%;
+}
+
+/*gallery2*/
+.gallery2{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+.gallery2 .left{
+    background-image: url(../imgs/circles.jpg);
+}
+.gallery2 .middle{
+    background-image: url(../imgs/jellyfish.jpg);
+}
+.gallery2 .right{
+    background-image: url(../imgs/watercolors.jpg);
+}
