@@ -95,7 +95,7 @@ nav{
     background-image: url(../imgs/treeinwater.jpg);
     background-position: bottom;
     width:50%;
-    background-size: 60rem;
+    background-size: 90rem;
     
             
 }
@@ -113,7 +113,7 @@ nav{
 }
 .gallery1 .left{
     background-image: url(../imgs/waterfall.jpg);
-    padding: 33%;
+    padding: 13%;
     height: 40vh;
     margin: 4% 0;
     background-size: cover;
@@ -124,7 +124,7 @@ nav{
 }
 .gallery1 .middle{
     background-image: url(../imgs/yellowflower.jpg);
-    padding: 33%;
+    padding: 13%;
     height: 40vh;
     margin: 4% 0;
     background-size: cover;
@@ -135,7 +135,7 @@ nav{
 }
 .gallery1 .right{
     background-image: url(../imgs/wildflowers.jpg);
-    padding: 33%;
+    padding: 13%;
     height: 40vh;
     margin: 4% 0;
     background-size: cover;
@@ -149,11 +149,10 @@ nav{
 .gallery2{
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
 }
 .gallery2 .left{
     background-image: url(../imgs/circles.jpg);
-    padding: 33%;
+    padding: 13%;
     height: 40vh;
     margin: 4% 0;
     background-size: cover;
@@ -164,7 +163,7 @@ nav{
 }
 .gallery2 .middle{
     background-image: url(../imgs/jellyfish.jpg);
-    padding: 33%;
+    padding: 13%;
     height: 40vh;
     margin: 4% 0;
     background-size: cover;
@@ -175,7 +174,7 @@ nav{
 }
 .gallery2 .right{
     background-image: url(../imgs/watercolors.jpg);
-    padding: 33%;
+    padding: 13%;
     height: 40vh;
     margin: 4% 0;
     background-size: cover;
@@ -183,4 +182,12 @@ nav{
     background-position: center;
     display: flex;
     align-items: flex-end;
+}
+section .gallery2{
+    padding:0;
+}
+/*footer*/
+footer{
+    background-color: aquamarine;
+    text-align: center;
 }
