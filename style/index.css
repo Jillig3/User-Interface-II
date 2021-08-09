@@ -245,22 +245,35 @@ footer button{
 }
 /*500px*/
 @media(max-width: 500px){
-    .home{
+
+    .nav, .home, .gallery1, .gallery2{
+    width: 100%;
+    }
+    .gallery1, .gallery2{
+    height: 50vh;
+    }
+    .gallery1{
+        margin-top: 75%;
+    }
+    .home, .section{
         flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: center;    
     }
     .mainphoto{
-        width: 100%;
-        height: 50vh;
+        justify-content: center;
+        padding: 30%;
     }
     .bio{
-        background-image: none;
-        width: 100%;
-        height: 50vh;
         text-align: center;
-        justify-content: center;
-        padding: 0%;
+    }
+    p{
+        color: white;
+    }
+    .gallery1 div .hide, .gallery2 div .hide{
+        background-color: none;
+    }
+    .gallery2 div:hover .hide{
+        display: inside;
     }
 
 }
